@@ -1,0 +1,32 @@
+/*
+ * Player Controls Grid
+ * Ряд 1: текст, скачать, громкость
+ * Ряд 2: очередь, качество, настройки
+ * Не применяется если активна тема Vocaloid Miku! (класс pcg-active на body)
+ */
+
+body.pcg-active [class*="PlayerBarDesktopWithBackgroundProgressBar_meta__"] {
+    display: inline-grid !important;
+    grid-template-rows: 32px 32px !important;
+    grid-auto-flow: column !important;
+    gap: 5px !important;
+    align-items: center !important;
+    align-content: center !important;
+}
+
+/* Стиль кнопки настроек */
+body.pcg-active #pcg-settings-btn {
+    color: var(--ym-controls-color-secondary-text-enabled);
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+body.pcg-active #pcg-settings-btn:hover {
+    color: #e6e6e6 !important;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Player Controls Grid",
+    "libraryLogo": "logo.svg",
+    "image": "logo.svg",
+    "banner": "banner.svg",
+    "author": ["dobryjigrok", "diram1x"],
+    "description": "Располагает кнопки плеера (текст, очередь, скачать, качество, громкость, настройки) в два ряда",
+    "type": "script",
+    "version": "1.0.0",
+    "css": "style.css",
+    "script": "script.js",
+    "tags": ["script", "Player", "UI", "Grid", "utility"]
+}
